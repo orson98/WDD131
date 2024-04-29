@@ -1,0 +1,140 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 1rem;
+    background-image: url(https://www.pixel4k.com/wp-content/uploads/2019/11/thinnest-crescent-moon_1574941311.jpg); 
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.header{
+
+    display: flex;
+    
+
+}
+.header__container-image{
+     
+    display: flex;
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 256px;
+    transition: all 3s;
+}
+.header__container-image:hover{
+
+    transform:  rotate(360deg);
+    
+
+}
+
+.header__image{
+
+    width: 100%;
+
+}
+
+.main{
+
+    display: flex;
+    
+
+}
+.article{
+
+    display: flex;
+     
+}
+
+.article-container{
+
+    display: flex;
+    padding: 0 2rem;
+   
+    
+     
+}
+.article__card{
+
+    display: flex;
+    background-color: #16181dbf;
+    flex-direction: column;
+    max-width: 256px;
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 0.65rem;
+    box-sizing: border-box;
+
+}     
+.article__card-title{
+     
+    font-size: 1.5rem;
+    margin: 0;
+    text-align: center;
+
+}
+.article__card-keywords{
+    font-size: 1rem;
+    margin: 0;
+    text-align: center;
+
+}
+.aricle__card-description{
+    font-size: 0.85rem;
+    margin: 0;
+    text-align: center;
+
+}
+.footer{
+
+    display: flex;
+    background-color: #16181dbf;
+
+}
+.footer-nav{
+
+    display: flex;
+
+}
+.footer-nav-container{
+
+    display: flex;
+
+}
+.footer-nav__list{
+   
+
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+    padding: 0;
+    list-style: none;
+
+}
+.footer-nav__item{
+
+
+     display: flex;
+    
+
+}
+.footer-nav__link{
+
+    display: flex;
+    width: 2rem;
+    transition: all 0.80s;
+}
+.footer-nav__link:hover{
+    filter: brightness(150%);
+    transform: scale(1.25) rotate(360deg);
+
+}
+.footer-nav__link-image{
+    width: 100%;
+
+}
