@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>temple</title>
-    <link rel="stylesheet" href="./css/temple.css">
+    <link rel="stylesheet" href="./styles/temple.css">
+    <link rel="stylesheet" href="./styles/temples-large.css">
     <script src="./scripts/getdates.js" defer></script>
+    <script src="./scripts/temples.js"></script>
     
 
 </head>
@@ -56,23 +58,5 @@
         <p id="lastModified"></p>
     </nav>
     </footer>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const hamburgerIcon = document.querySelector('.hamburger-icon');
-            const closeIcon = document.querySelector('.close-icon');
-            const navVisible = document.querySelector('.nav-visible');
-            const navHidden = document.querySelector('.nav-hidden');
-            
-            // Mostrar menú al hacer clic en el icono de hamburguesa
-            hamburgerIcon.addEventListener('click', function() {
-                navVisible.classList.toggle('nav-hidden');
-            });
-
-            // Ocultar menú al hacer clic en el icono de cierre
-            closeIcon.addEventListener('click', function() {
-                navVisible.classList.toggle('nav-hidden');
-            });
-        });
-    </script>
 </body>
 </html>
