@@ -4,6 +4,8 @@
     }
     .nav-visible {
         display: none; 
+        flex-direction: column;
+       
     }
     .nav-hidden {
         display: flex; 
@@ -11,13 +13,7 @@
     .close-icon {
         display: block;
     }
-    .nav-visible {
-        
-        margin-top: 10px;  
-        margin-right: 10px;  
-        margin-bottom: 10px;  
-        margin-left: 10px;  
-    }
+
    
 }
  
