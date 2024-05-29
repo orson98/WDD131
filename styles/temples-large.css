@@ -32,8 +32,7 @@ nav a {
 }
 nav a:hover {
     background-color: #555;
-}
-main {
+}.res-gird {
     max-width: 800px;
     margin: 0 auto; 
     padding: 20px;
@@ -62,5 +61,22 @@ figure {
 }
 
 
- 
+@media (max-width: 900px) {
+    .hamburger {
+        display: block; 
+    }
+    .nav-visible {
+        display: none; 
+        flex-direction: column;
+       
+    }
+    .nav-hidden {
+        display: flex; 
+    }
+    .close-icon {
+        display: block;
+    }
+
+   
+}
  
